@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+}
+
+.description{
+  backround-color: white;
+  width: 33%;
+  margin: 10px;
+}
+
+.mainPhoto{
+  border: solid gray 1px;
+  backround-color: white;
+  border-radius: 5px;
+  box-shadow: gray 2px 2px 2px 2px;
+  width: 300px;
+  margin: 15px;
+  padding: 10px
+}
+
+.mainPhoto img{
+  width: 280px;
+}
+
+
+.input{    
+ width:0px;
+}
+
+.inputFile{
+  cursor: pointer;
+  display: inline-block;
+  margin: 15px 0;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #217c6d;
+  color: white;
+  width: auto;
+  height: 40px;
+}
+
+.inputFile:hover{    
+  background-color: #165046; 
+}
